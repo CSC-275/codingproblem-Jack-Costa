@@ -1,7 +1,8 @@
 #include<iostream>
 #include "Game.h"
 Game::Game() {
-    cout <<"**************" << endl << "* Play Keno! *" <<endl<< "**************" << endl;
+    cout <<"**************" << endl << "* Play Keno! *" <<endl<< "**************" << endl<<endl;
+
     playGame();
 }
 void Game:: printMatches(std::vector<int>playerPicks,std::vector<int>kenoNumbers) {
@@ -65,7 +66,9 @@ void Game::playGame() {
         cout << endl;
         cout <<"Play again? (y/n): ";
         cin>> playAgain;
+        cout <<endl;
     }
+    cout << endl;
     cout << endl;
     cout <<"THANKS FOR PLAYING!!";
 }
