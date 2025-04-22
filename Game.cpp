@@ -67,8 +67,8 @@ void Game::playGame() {
         cout <<"Play again? (y/n): ";
         cin>> playAgain;
         cout <<endl;
+
     }
-    cout << endl;
-    cout << endl;
+
     cout <<"THANKS FOR PLAYING!!";
 }
